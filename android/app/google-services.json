@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "666869552273",
+    "project_id": "controle-de-transportes-f1a11",
+    "storage_bucket": "controle-de-transportes-f1a11.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666869552273:android:59bbf90e89b3bea6075b30",
+        "android_client_info": {
+          "package_name": "com.example.controle_transportes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9n1Mim6Yak_IeefInJqAQ3RtIWWPIdFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

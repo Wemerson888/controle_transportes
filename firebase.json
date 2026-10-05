@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "controle-de-transportes-f1a11",
+          "appId": "1:666869552273:android:59bbf90e89b3bea6075b30",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "controle-de-transportes-f1a11",
+          "configurations": {
+            "android": "1:666869552273:android:59bbf90e89b3bea6075b30",
+            "ios": "1:666869552273:ios:e31ee85ecfaf8422075b30",
+            "macos": "1:666869552273:ios:e31ee85ecfaf8422075b30",
+            "web": "1:666869552273:web:189f26252c2133e7075b30",
+            "windows": "1:666869552273:web:d14657971961f722075b30"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
